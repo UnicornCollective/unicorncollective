@@ -1,0 +1,56 @@
+/*Fonts*/
+@font-face {font-family: 'BebasNeue';src: url('webfonts/326E13_0_0.eot');src: url('webfonts/326E13_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/326E13_0_0.woff2') format('woff2'),url('webfonts/326E13_0_0.woff') format('woff'),url('webfonts/326E13_0_0.ttf') format('truetype');}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/*Colors*/
+/* #C5D2DB
+#C5919D
+#E7B183
+#2096ba
+#DF6E21*/
+
+
+*, *:before, *:after{
+  box-sizing: border-box;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+  color: white;
+  padding: 0;
+  margin: 10px;
+  font-weight: normal;
+}
+
+body{
+  background-color: #C5D2DB;
+  width: 100%;
+}
+
+h1{
+  font-family:'BebasNeue';
+  font-size: 5em;
+  text-align: center;
+  color: #C5919D;
+  padding: 0px;
+  margin: 0px;
+}
+
+.body{
+  margin: auto;
+  margin-top: 250px;
+  max-width: 500px;
+  height: 90vh;
+}
+.uC{
+  border: 6px solid white;
+  display: inline-block;
+  padding: 40px;
+}
+.footer{
+  height: 10vh;
+  width: 100%; 
+  background: #C5919D;
+}
