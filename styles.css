@@ -1,7 +1,7 @@
 /*Fonts*/
 @font-face {font-family: 'BebasNeue';src: url('webfonts/326E13_0_0.eot');src: url('webfonts/326E13_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/326E13_0_0.woff2') format('woff2'),url('webfonts/326E13_0_0.woff') format('woff'),url('webfonts/326E13_0_0.ttf') format('truetype');}
-
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
 /*Colors*/
 /* #C5D2DB
@@ -37,7 +37,18 @@ h1{
   padding: 0px;
   margin: 0px;
 }
+i{
+  color: white;
+  padding: 20px;
 
+}
+i:hover{
+  color: #2096ba;
+}
+
+.icon_bar{
+  text-align: center;
+}
 .body{
   margin: auto;
   margin-top: 250px;
@@ -51,6 +62,6 @@ h1{
 }
 .footer{
   height: 10vh;
-  width: 100%; 
+  width: 100%;
   background: #C5919D;
 }
