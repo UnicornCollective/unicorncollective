@@ -27,6 +27,7 @@ h3{
 body{
   background-color: #C5D2DB;
   width: 100%;
+  height: 96vh;
 }
 
 h1{
@@ -43,7 +44,7 @@ i{
 
 }
 i:hover{
-  color: #2096ba;
+  color: #FFE7F5;
 }
 
 .icon_bar{
@@ -64,4 +65,11 @@ i:hover{
   height: 10vh;
   width: 100%;
   background: #C5919D;
+}
+img{
+  height: 250px;
+}
+.unicorn{
+  padding: 0 20%;
+
 }
